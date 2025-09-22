@@ -1,0 +1,40 @@
+From b0e4579bb80caaa5452c486e421a6da96378eb5c Mon Sep 17 00:00:00 2001
+From: anujyog1 <66674832+anujyog1@users.noreply.github.com>
+Date: Fri, 19 Sep 2025 08:53:58 +0530
+Subject: [PATCH 1/2] Update pom.xml 3rd time
+
+---
+ pom.xml | 12 ++----------
+ 1 file changed, 2 insertions(+), 10 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index 998998b..8af9261 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -11,21 +11,13 @@
+     <dependencies>
+         <!-- Servlet API -->
+         <dependency>
+-            <groupId>javax.servlet</groupId>
++            <groupId></groupId>
+             <artifactId>javax.servlet-api</artifactId>
+             <version>4.0.one</version> 
+             <scope>providd</scope> 
+         </dependency>
+ 
+-        <!-- JSP API -->
+-        <dependency>
+-            <groupId>javax.servlet.jsp</groupId>
+-            <artifactId></artifactId> 
+-            <version>2.3.3</version>
+-            <scope>provided</scope>
+-        </dependency>
+-
+-        
++               
+     </dependencies>
+ 
+     <build>
+-- 
+2.47.1.windows.1
+
